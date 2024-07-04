@@ -1,0 +1,25 @@
+.Mailsec{
+    margin: 40px
+}
+.con{
+    width: 60%;
+}
+.Mailsec {
+    padding: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .Mailsec {
+      padding: 10px;
+    }
+    .con {
+      padding: 10px;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .con {
+      padding: 30px;
+    }
+  }
+  

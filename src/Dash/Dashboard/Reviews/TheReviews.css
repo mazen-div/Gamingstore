@@ -1,0 +1,45 @@
+
+  
+  .headlined {
+    margin: 50px;
+    font-size: 30px;
+    font-family: secondaryfont;
+    color: black;
+    text-align: center;
+  }
+  
+  .review-table {
+    margin-bottom: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+  }
+  
+  .review-table th, .review-table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ccc;
+  }
+  
+  .review-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .review-table img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .edit-btn, .delete-btn {
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+  
+  .edit-btn:hover, .delete-btn:hover {
+    background-color: #0056b3;
+  }
+  

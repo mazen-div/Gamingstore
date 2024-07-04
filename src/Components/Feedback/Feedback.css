@@ -1,0 +1,42 @@
+#elfed{
+    margin:auto;
+}
+#fed{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/082/349/non_2x/black-abstract-header-modern-widescreen-banner-simple-texture-illustration-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white
+}
+
+#fed p{
+    background-image: url('https://static.vecteezy.com/system/resources/previews/002/558/987/non_2x/simple-blue-header-composed-of-a-triangular-mesh-modern-seamless-pattern-banner-background-vector.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;border-radius: 14px;
+padding: 15px;
+color: white;
+font-weight: 500;
+}
+#feddiv{
+    margin: 50px;
+}
+.text-muted{
+    color: white !important;
+}
+#fdc{
+    width: 99%;
+}
+#divif{
+    font-family: secondaryfont;
+}
+@media (max-width: 768px) {
+    #divif{
+        font-size: 20px;
+    }
+    #feddiv{
+        margin: 8px;
+    }
+    #fdc{
+        width: 100%;
+        overflow: hidden;
+    }
+}

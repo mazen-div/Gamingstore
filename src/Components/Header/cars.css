@@ -1,0 +1,13 @@
+.carousel-img {
+    height: 400px; /* Adjust this value as needed */
+  }
+#ee{
+  background: rgb(255,255,255);
+  background: linear-gradient(124deg, rgba(255,255,255,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 74%);
+  }
+    /* Media query for mobile devices */
+@media (max-width: 768px) {
+  .carousel-img {
+    height: 200px; /* Adjust this value as needed */
+  }
+}

@@ -1,0 +1,73 @@
+.page-footer{
+   background-color: #003c43;    color: white;
+}
+.linksfooter a{
+  font-family: "Archivo", sans-serif;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;  
+}
+.fot {
+    padding: 10px;
+    border-radius: 10px;
+}
+.linksfooter a:hover{
+    font-family: 'secondaryfont', sans-serif;
+    color: black;
+    padding: 4px;
+    background-color: white;
+    transition-duration: 1s;
+}
+#fotertitle{
+    color: #ffffff;
+    margin-top: 35px;
+    font-family: 'primaryfont', sans-serif;
+    font-size: 20px;
+}
+.subscribe-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .custom-input-group {
+    display: flex;
+    align-items: center;
+  }
+  
+  .custom-input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #fff;
+    margin-left: 30px;
+    font-size: 15px;
+    border: 1px solid white;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .custom-submit-button {
+    min-height: 50px;
+    padding: 0.5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #FFC55A;
+    color: black;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .custom-submit-button:hover {
+    background-color: #f1a10b;
+  }
+  
+  .custom-input:focus,
+  .custom-input:focus-visible {
+    border-color: #3898ec;
+    outline: none;
+  }
+  @media (max-width: 768px) {
+    .custom-input{margin-left: 60px;}
+  }
